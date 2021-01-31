@@ -1,0 +1,34 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: gray;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+}
+
+#container * {
+    margin: 0;
+}
+
+#comingSoonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
