@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./index.css">
-    </head>
+<html class="bg-[#2c2d47]">
 
-    <body>
-        <div id="container">
-            <div id="comingSoonContainer">
-                <h1>Eric Liu</h1>
-                <h1>Coming soon</h1>
-            </div>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="output.css" rel="stylesheet">
+</head>
+
+<body class="grid place-items-center h-screen">
+  <div class="flex flex-col space-y-8 w-4/5 h-fit mt-6 p-8 rounded-2xl bg-[#484cc2]">
+    <h1 class="text-6xl font-bold">eric liu (he/they)</h1>
+    <div class="flex space-x-3" id="profile">
+      <div class="basis-128 grid " id="picture">
+        <img class="rounded" src="img/profile.jpeg" alt="Eric Liu profile picture">
+      </div>
+
+      <div id="about">
+        <div class="h-full flex flex-col space-y-3 2xl:justify-evenly ">
+          <p>Hello, I'm Eric! I am currently a first year undergraduate student studying BSC Computer Science at the
+            <a href="https://dcs.warwick.ac.uk/">University of Warwick</a>.
+          </p>
+          <p>My professional interests are in financial technology and data analytics and I love making
+            small applications or utilities to aid the communities that I am part of.</p>
+          <p>Alongside my university studies, I currently work remotely part time as a Support Operator with
+            <a href="https://shockbyte.com">Shockbyte</a>, an Australian-based game server hosting company.
+            I am also the current Chief Projectionist for 2023-24 at <a href="https://warwick.film">Warwick Student
+              Cinema</a>, leading a team of digital and 35mm projectionists in a professional student cinema on campus.
+          </p>
+          <p>I am proficient in JavaScript, Java and Python, and am currently developing my skills in TypeScript.</p>
+          <p>To see the projects that I have worked on, or to connect and learn more about me, you can find me on GitHub and LinkedIn below.</p>
         </div>
-    </body>
+      </div>
+    </div>
+
+    <div class="w-full flex content-evenly items-center space-x-7" id="socials">
+      <div class="invisible w-1/4"></div>
+      <a class="w-1/4 grid place-items-center" href="https://github.com/eliuuk/">
+        <img src="img/github.png" alt="GitHub Logo" class="logo">
+      </a>
+      <a class="w-1/4 grid place-items-center" href="https://www.linkedin.com/in/ericliuuk/">
+        <img src="img/linkedin.png" alt="LinkedIn Logo" class="logo">
+      </a>
+      <div class="invisible w-1/4"></div>
+    </div>
+  </div>
+</body>
+
 </html>
